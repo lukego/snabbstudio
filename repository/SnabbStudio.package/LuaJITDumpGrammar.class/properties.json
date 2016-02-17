@@ -1,0 +1,27 @@
+{
+	"category" : "SnabbStudio",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"start",
+		"trace",
+		"bytecodeTrace",
+		"bytecodeHeader",
+		"bytecodeLine",
+		"irHeader",
+		"irLine",
+		"mcodeHeader",
+		"mcode",
+		"irTrace",
+		"mcodeTrace",
+		"mcodeLine",
+		"mcodeLoop",
+		"endTrace" ],
+	"name" : "LuaJITDumpGrammar",
+	"pools" : [
+		 ],
+	"super" : "PPCompositeParser",
+	"type" : "normal" }
