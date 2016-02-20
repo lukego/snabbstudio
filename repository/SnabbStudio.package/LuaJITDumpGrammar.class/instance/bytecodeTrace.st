@@ -1,3 +1,3 @@
-grammar
+grammar-bytecode
 bytecodeTrace
-	^ bytecodeHeader , (bytecodeLine plus)
+	^bytecodeTraceStart , bytecodeLine plus

@@ -1,3 +1,3 @@
-grammar
+grammar-ir
 irTrace
-	^ irHeader , (irLine plus)
+	^irTraceStart , irLine plus , (irLoop , irLine plus) optional

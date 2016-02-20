@@ -1,3 +1,3 @@
-grammar
+grammar-mcode
 mcodeLoop
-	^'->LOOP:' asParser , #newline asParser
+	^'->LOOP:' asParser trim

@@ -1,3 +1,3 @@
-grammar
+grammar-bytecode
 bytecodeLine
-	^ #digit asParser plus , #newline asParser negate plus , #newline asParser 
+	^bytecodeInstructionNumber , (#newline asParser negate plus) , #newline asParser

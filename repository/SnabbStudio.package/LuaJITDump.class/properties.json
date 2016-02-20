@@ -1,0 +1,14 @@
+{
+	"category" : "SnabbStudio",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LuaJITDump",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

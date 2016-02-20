@@ -1,3 +1,6 @@
-grammar
+grammar-mcode
 mcodeLine
-	^ #hex asParser plus , #newline asParser negate plus , #newline asParser
+	^(mcodeAddress trim) ,
+		(mcodeOpcode trim) ,
+		(mcodeOperands) ,
+		(mcodeExit optional)

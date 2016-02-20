@@ -1,3 +1,3 @@
 grammar
 start
-	^ trace plus.
+	^trace plus

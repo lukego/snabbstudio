@@ -1,3 +1,10 @@
-grammar
+grammar-ir
 irLine
-	^ #digit asParser plus , #newline asParser negate plus , #newline asParser
+	^(irInstructionNumber trim) ,
+		(irRegister optional trim) ,
+		(irFlagGuard optional trim) ,
+		(irFlagPhi optional trim) ,
+		(irType trim) ,
+		(irOpcode trim) ,
+		irOperands ,
+		#newline asParser optional
