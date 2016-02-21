@@ -1,3 +1,3 @@
 as yet unclassified
 parserClass
-	^LuaJITDumpGrammar
+	^LuaJITDumpParser

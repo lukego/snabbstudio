@@ -1,3 +1,3 @@
-as yet unclassified
+grammar
 start
-	^super start map: [ :bc :ir :mc |  LuaJITDump new; bc: bc; ir: ir; mc: mc; yourself]
+	^trace plus end

@@ -1,3 +1,3 @@
 grammar
 trace
-	^bytecodeTrace , irTrace , mcodeTrace , traceEnd
+	^traceComplete / traceAborted

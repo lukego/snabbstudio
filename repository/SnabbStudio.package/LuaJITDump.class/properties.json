@@ -6,7 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
+		"bytecodeTrace",
+		"irTrace",
+		"mcodeTrace" ],
 	"name" : "LuaJITDump",
 	"pools" : [
 		 ],

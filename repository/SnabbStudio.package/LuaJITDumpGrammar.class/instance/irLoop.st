@@ -1,3 +1,3 @@
-grammar-ir
+grammar
 irLoop
-	^irInstructionNumber , '------ LOOP ------------' asParser trim
+	^irInstructionNumber , $- asParser plus trim , 'LOOP' asParser , $- asParser plus trim
