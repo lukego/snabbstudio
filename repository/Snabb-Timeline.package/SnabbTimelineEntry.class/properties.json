@@ -1,0 +1,27 @@
+{
+	"category" : "Snabb-Timeline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tsc",
+		"ip",
+		"aux",
+		"reserved",
+		"messageId",
+		"message",
+		"lag",
+		"core",
+		"numa",
+		"messageTextIndex",
+		"messageCategoryIndex",
+		"messageText",
+		"messageCategory",
+		"messagePriority" ],
+	"name" : "SnabbTimelineEntry",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }

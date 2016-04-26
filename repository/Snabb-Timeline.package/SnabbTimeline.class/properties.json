@@ -1,0 +1,19 @@
+{
+	"category" : "Snabb-Timeline",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"magic",
+		"stream",
+		"header",
+		"records",
+		"strings",
+		"stringTablePosition" ],
+	"name" : "SnabbTimeline",
+	"pools" : [
+		 ],
+	"super" : "Object",
+	"type" : "normal" }
