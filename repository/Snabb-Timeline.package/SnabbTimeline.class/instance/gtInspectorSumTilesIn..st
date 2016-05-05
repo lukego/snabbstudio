@@ -1,4 +1,4 @@
-as yet unclassified
+visualizations
 gtInspectorSumTilesIn: composite
 	<gtInspectorPresentationOrder: 40>
 	| d b |
