@@ -1,4 +1,4 @@
-as yet unclassified
+visualizations
 gtInspectorFlowIn: composite
 	<gtInspectorPresentationOrder: 50>
 	| d l b |

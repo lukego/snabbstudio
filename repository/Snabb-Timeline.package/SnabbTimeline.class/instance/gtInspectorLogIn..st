@@ -1,4 +1,4 @@
-as yet unclassified
+visualizations
 gtInspectorLogIn: composite
 	<gtInspectorPresentationOrder: 20>
 	composite table
